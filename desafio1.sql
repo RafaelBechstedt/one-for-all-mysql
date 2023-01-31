@@ -8,7 +8,7 @@ CREATE DATABASE SpotifyClone;
 CREATE TABLE SpotifyClone.memberships (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   type VARCHAR(45) NOT NULL,
-  price DOUBLE NOT NULL
+  price DECIMAL(5, 2) NOT NULL
  )
 ENGINE = InnoDB;
 
